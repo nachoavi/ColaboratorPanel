@@ -1,0 +1,104 @@
+:root{
+    --primary: #2A2C41;
+    --light: #f6f1e8;
+    --grey: #4E658D;
+    --black: #1C2331;
+    --blackclaire: #1D2125;
+    --oceanBlue: #447A9C;
+    --mustard: #FDA312;
+}
+
+body{
+    overflow: hidden;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 300;
+    color: var(--primary);
+    background-color: var(--light);
+    
+}
+
+.bg-light {
+    background-color: var(--light) !important;
+}
+
+.bg-black{
+    background-color: var(--black) !important;
+}
+
+.bg-mustard {
+    background-color: var(--mustard);
+}
+
+.bg-oceanBlue {
+    background-color: var(--oceanBlue);
+}
+
+.bg-grey {
+    background-color: var(--grey);
+}
+
+.bg-blackclaire {
+    background-color: var(--blackclaire);
+}
+
+.bg-primary {
+    background-color: var(--primary) !important;
+}
+
+.text-ligth{
+    color: var(--light);
+}
+
+.gymColor{
+    color: grey;
+}
+
+#sidebar-container {
+    min-height: 100vh;
+    min-width: 30vh;
+}
+
+
+
+#sidebar-container .logo{
+    padding: .875rem 1.25rem;
+    
+};
+
+#sidebar-container .menu {
+    width: 18rem;
+}
+
+
+#sidebar-container .menu .am:hover{
+    background-color: var(--primary);
+}
+
+.btn-search{
+    right: 7px;
+}
+
+.avatar {
+    font-size: 25px;
+
+}
+
+.list__colabs {
+    display: none;
+}
+.list__colabs--a:hover {
+    background-color: #1EA4A2;
+    border-radius: 7px;
+}
+
+#content{
+    overflow-y: auto;
+    height: 100vh;
+    padding-bottom: 5rem;
+}
+
+
+
+.displayNone {
+    display: none;
+}
